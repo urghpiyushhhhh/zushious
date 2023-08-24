@@ -1,0 +1,369 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+*{
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+}
+
+@media (max-height: 100vh){
+body::before{
+    content: '';
+    position: absolute;
+    background: url(/ZUSHIOUS/images/bg.jpg) no-repeat center center/cover ;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    opacity: 0.3;
+}}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+button:hover, .right-nav  button:hover{
+    background-color: #efa765;
+    color: white;
+    cursor: pointer;
+}
+
+:root{
+    --yellow-one: #efa765;
+    --head-font: 'Yeseva One', cursive;
+    --normal-font:'Varela Round', sans-serif;
+}
+
+.nav-div{
+    display: flex;
+    height: 125px;
+}
+
+.left-nav{
+    font-family:'Yeseva One', cursive;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    /* background-color: salmon; */
+}
+
+.mid-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: lightblue; */
+    flex: 3;
+    font-family: 'Varela Round', sans-serif;
+}
+
+ul{
+    display: flex;
+    padding: 0px;
+}
+
+li{
+    font-size: 0.8rem;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+li:hover{
+    color: #efa765;
+    cursor: pointer;
+}
+
+#home-button{
+    color: #efa765;
+}
+
+.right-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: salmon; */
+    flex: 1;
+}
+
+.right-nav button, .reservation{
+    font-family: 'Varela Round', sans-serif;
+    color: var(--yellow-one);
+    border: 1px solid var(--yellow-one);
+    background-color: transparent;
+    padding: 15px 40px;
+}
+
+/* NOTE */
+ 
+.note p{
+    font-family: 'Yeseva One', cursive;
+    font-size: 5.3rem;
+    color: var(--yellow-one);
+    margin-left: 50px;
+    margin-top: 150px;
+    width: 650px;
+    line-height: 100px;
+}
+
+.reservation{
+    position: relative;
+    bottom: 60px;
+    left: 55px;
+}
+
+
+ .p2{
+    height: 120vh;
+    width: 100vw;
+    background-color: black;
+    margin-bottom: 200px;
+ }
+.welcome{
+    font-size: 3rem;
+    font-family: 'Yeseva One', cursive;
+    color: #efa765;
+    width: 29%;
+    position: relative;
+    top: 20vh;
+    left: 21vw;
+    line-height: 60px;
+}
+
+.story{
+    text-align: left;
+    font-family: var(--normal-font);
+    width: 32%;
+    position: relative;
+    top: 13%;
+    left: 58%;
+}           
+
+.story h2{
+    font-size: 33px;
+    color: #efa765;
+    font-family: var(--head-font);
+    font-size: 30px;
+}
+
+.story p{
+    line-height: 24px;
+}
+
+#more-about-us{
+    position: relative;
+    bottom: 40%;
+    left: 58%;
+}
+
+#more-about-us:hover{
+    transform: scale(1.1);
+}
+
+#interior-1{
+    height: 500px;
+    display: inline;
+    box-shadow: -20px 20px var(--yellow-one);
+}
+
+.dishes-heading{
+    color: #efa765;
+    font-family: var(--head-font);
+    font-size: 2rem;
+}
+
+#dh1{
+    font-size: 3rem;
+    width: 25%;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.dish-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.dish{
+    margin: 10px 1px;
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    /* border: 1px solid #efa765; */
+    box-shadow: 0px 0px 10px #efa8652f;
+}
+
+.dish:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.35s;
+}
+
+.dish img{
+    width: 350px;
+    height: 250px;
+    margin: 0px;
+    padding: 0%;
+    opacity: 0.7;
+    border-radius: 50px;
+}
+
+.dish p{
+    margin: 0%;
+    padding: 10px;
+    color: #efa765;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    width: 250px;
+}
+
+#last-btn{
+    margin-top: 40px;
+    font-family: var(--normal-font);
+    color: #efa765;
+    padding: 17px 30px;
+    background-color: transparent;
+    border: 1px solid #efa765;
+}
+
+#last-btn:hover{
+    cursor: pointer;
+    background-color: #efa765;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* END  */
+
+#waiting-txt{
+    font-family: var(--head-font);
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    padding: 20px 450px;
+}
+
+.end-div-1{
+    background: linear-gradient(rgb(0, 0, 0),rgba(255, 0, 0, 0));
+    width: 100vw;
+    height: 40vh;
+    margin-top: 50px;
+}
+
+.end-div-1::before{
+    content: '';
+    position: absolute;
+    height: 80vh;
+    width: 100vw;
+    background: url('/ZUSHIOUS/images/bg2.jpg') no-repeat bottom center/cover;
+    z-index: -1;
+    opacity: 0.3;
+
+}
+
+.end-div-2{
+    background: linear-gradient(rgba(255, 0, 0, 0),rgb(0, 0, 0));
+    width: 100vw;
+    height: 40vh;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.location p{
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.location #top{
+    font-family: var(--head-font);
+    margin-top: 70px;
+    margin-left: 200px;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.location #bottom{
+    font-family: var(--normal-font);
+    width: 200px;
+    text-align: center;
+    margin-left: 170px;
+    line-height: 23px;
+}
+
+.follow-us p{
+    font-family: var(--head-font);
+    font-size: 30px;
+    position: relative;
+    left: 200px;
+}
+
+.follow-us img{
+    height: 25px;
+    margin: 5px 10px;
+    position: relative;
+    top: 50px;
+    left: 57px;
+    opacity: 0.9;
+}
+
+.follow-us{
+    display: flex;
+    align-items: center;
+}
+
+.Timing p{
+    font-family: var(--head-font);
+    font-size: 2rem;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 35px;
+    margin-left: 16px;
+}
+
+.Timing li{
+    font-family: var(--normal-font);
+    list-style: none;
+    opacity: 0.9;
+    margin-bottom: 5px;
+}
+
+.Timing ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Timing{
+    position: relative;
+    left: 65vw;
+    bottom: 80px;
+    width: 300px
+        
+}
